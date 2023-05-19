@@ -1,0 +1,33 @@
+.card1{
+    width:250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    margin-left:20px;
+    margin-right:20px;
+}
+.forcard{
+    clear: both;
+}
+.flex-container{
+    display:flex;
+    margin-left:70px;
+    margin-right:70px;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container > .item1{
+    flex-basis: 40%;
+    padding:10px;
+}
+.flex-container > .item2{
+    flex-basis:60%;
+    padding:10px;
+}
+img{
+    border-radius: 10px;
+}
+.item2 p{
+font-size: 20px;
+line-height: 30px;
+}
